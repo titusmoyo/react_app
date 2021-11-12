@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './Readings.css';
 import Spinner from "./Spinner";
+import elements from './elements.jpg';
+import system from './system.jpg';
 
 class Readings extends React.Component{
 
@@ -24,7 +26,7 @@ class Readings extends React.Component{
     if(img==="The elements of computing systems"){
       return(
         <div>
-            <img src={ require('./elements.jpg') } className="rounded" style={{width:250,height:236}} />
+            <img src={elements} className="rounded" style={{width:250,height:236}} />
         </div>
       );
     }
@@ -32,7 +34,7 @@ class Readings extends React.Component{
     if(img!="The elements of computing systems"){
       return(
         <div>
-            <img src={ require('./system.jpg') } className="rounded" style={{width:250,height:236}} />
+            <img src={system} className="rounded" style={{width:250,height:236}} />
         </div>
       );
     }

@@ -25,7 +25,7 @@ class ClassRoom extends React.Component{
     cs_list:cs_list,
     tg:null,
     cs_modules:cs_modules,
-    clicked_Module_Code:'cs1001',
+    clicked_Module_Code:'cs10010',
     clickedModule:''
 
   }

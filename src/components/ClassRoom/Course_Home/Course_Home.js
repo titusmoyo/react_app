@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Course_Home.css';
+import coding from './coding.jpg';
 import Spinner from "./Spinner";
 
 class CourseHome extends React.Component{
@@ -31,7 +32,7 @@ class CourseHome extends React.Component{
                     <div class="row">
 
                         <div class="col-sm-6">
-                             <img src={require('./coding.jpg')} className="rounded" style={{width:500,height:236}} />
+                             <img src={coding} className="rounded" style={{width:500,height:236}} />
                         </div>
 
                         {/**//**/}
